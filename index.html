@@ -4,17 +4,22 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link src="style.css" rel="stylesheet" />
+    <link href="./style.css" rel="stylesheet" />
     <title>Landing Page using flex</title>
   </head>
   <body>
     <div class="main-body-wraper">
       <header>
-        <nav>
-          <div class="logo"></div>
-          <div class="menu"></div>
+        <nav class="max-width-90">
+          <div class="logo">Header Logo</div>
+          <ul class="menu">
+            <li>Header Link One</li>
+            <li>Header Link Two</li>
+            <li>Header Link Three</li>
+          </ul>
         </nav>
-        <div class="banner">
+
+        <div class="banner max-width-90">
           <div class="left-banner">
             <h1>This website is awesome</h1>
             <p>
@@ -23,39 +28,74 @@
               aperiam excepturi doloremque est? Velit autem commodi tempore
               quaerat esse! Amet, nam itaque.
             </p>
-            <button>sing up</button>
+            <button>SIGN UP</button>
           </div>
           <div class="right-banner">
-            <div class="img-placeholder"></div>
+            <div class="img-placeholder">
+              this is a placeholder for an image
+            </div>
           </div>
         </div>
       </header>
-      <div class="random-info-wraper">
-        <div class="card-box"></div>
-        <div class="card-box"></div>
-        <div class="card-box"></div>
-        <div class="card-box"></div>
+      <div class="random-info-wraper max-width-90">
+        <h3>Some Random information</h3>
+        <div class="box-wraper">
+          <div class="width-200">
+            <div class="card-box"></div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Deleniti.
+            </p>
+          </div>
+          <div class="width-200">
+            <div class="card-box"></div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Deleniti.
+            </p>
+          </div>
+          <div class="width-200">
+            <div class="card-box"></div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Deleniti.
+            </p>
+          </div>
+          <div class="width-200">
+            <div class="card-box"></div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Deleniti.
+            </p>
+          </div>
+        </div>
       </div>
       <div class="quote-wraper">
-        <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis
-          cupiditate asperiores ab rerum officia at optio minus voluptatem
-          voluptatum dolores temporibus quasi quas, animi aperiam explicabo sed
-          tenetur assumenda fuga.
-        </p>
-        <p class="name-qute">-Thor,God of Thunder</p>
-      </div>
-      <div class="cta-wraper">
-        <div class="txt-cta">
-          <h3>call to action time!</h3>
-          <p>
-            sing up for free product by clicking that button on the right there!
+        <div class="max-width-90">
+          <p class="qoute">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis
+            cupiditate asperiores ab rerum officia at optio minus voluptatem
+            voluptatum dolores temporibus quasi quas, animi aperiam explicabo
+            sed tenetur assumenda fuga.
           </p>
-        </div>
-        <div class="cta-btn">
-          <button class="singup-cta">sign up</button>
+          <p class="name-qute">-Thor,God of Thunder</p>
         </div>
       </div>
+      <div class="max-width-90">
+        <div class="cta-wraper">
+          <div class="txt-cta">
+            <h3>call to action time!</h3>
+            <p>
+              sing up for free product by clicking that button on the right
+              there!
+            </p>
+          </div>
+          <div class="cta-btn">
+            <button class="singup-cta">Sign Up</button>
+          </div>
+        </div>
+      </div>
+
       <div class="footer">
         <p>copyright @ The Odin Project 2022</p>
       </div>
